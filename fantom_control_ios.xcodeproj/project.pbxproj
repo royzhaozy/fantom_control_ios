@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF13D7B8236EB0D7001753DF /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF13D7B7236EB0D7001753DF /* MainTabController.swift */; };
+		CF13D7DC236EBF40001753DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF13D7DB236EBF40001753DF /* SceneDelegate.swift */; };
 		CFECDF2823512A070088FBEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFECDF2723512A070088FBEF /* AppDelegate.swift */; };
-		CFECDF2A23512A070088FBEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFECDF2923512A070088FBEF /* SceneDelegate.swift */; };
-		CFECDF2C23512A070088FBEF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFECDF2B23512A070088FBEF /* FirstViewController.swift */; };
-		CFECDF2E23512A070088FBEF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFECDF2D23512A070088FBEF /* SecondViewController.swift */; };
 		CFECDF3123512A070088FBEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFECDF2F23512A070088FBEF /* Main.storyboard */; };
 		CFECDF3323512A0B0088FBEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFECDF3223512A0B0088FBEF /* Assets.xcassets */; };
-		CFECDF3623512A0B0088FBEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFECDF3423512A0B0088FBEF /* LaunchScreen.storyboard */; };
 		CFECDF4123512A0B0088FBEF /* fantom_control_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFECDF4023512A0B0088FBEF /* fantom_control_iosTests.swift */; };
 		CFECDF4C23512A0B0088FBEF /* fantom_control_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFECDF4B23512A0B0088FBEF /* fantom_control_iosUITests.swift */; };
 /* End PBXBuildFile section */
@@ -36,14 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF13D7B7236EB0D7001753DF /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		CF13D7DB236EBF40001753DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CFECDF2423512A070088FBEF /* fantom_control_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fantom_control_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFECDF2723512A070088FBEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFECDF2923512A070088FBEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CFECDF2B23512A070088FBEF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		CFECDF2D23512A070088FBEF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CFECDF3023512A070088FBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFECDF3223512A0B0088FBEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CFECDF3523512A0B0088FBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFECDF3723512A0B0088FBEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFECDF3C23512A0B0088FBEF /* fantom_control_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fantom_control_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFECDF4023512A0B0088FBEF /* fantom_control_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fantom_control_iosTests.swift; sourceTree = "<group>"; };
@@ -101,13 +97,11 @@
 		CFECDF2623512A070088FBEF /* fantom_control_ios */ = {
 			isa = PBXGroup;
 			children = (
+				CF13D7DB236EBF40001753DF /* SceneDelegate.swift */,
 				CFECDF2723512A070088FBEF /* AppDelegate.swift */,
-				CFECDF2923512A070088FBEF /* SceneDelegate.swift */,
-				CFECDF2B23512A070088FBEF /* FirstViewController.swift */,
-				CFECDF2D23512A070088FBEF /* SecondViewController.swift */,
+				CF13D7B7236EB0D7001753DF /* MainTabController.swift */,
 				CFECDF2F23512A070088FBEF /* Main.storyboard */,
 				CFECDF3223512A0B0088FBEF /* Assets.xcassets */,
-				CFECDF3423512A0B0088FBEF /* LaunchScreen.storyboard */,
 				CFECDF3723512A0B0088FBEF /* Info.plist */,
 			);
 			path = fantom_control_ios;
@@ -235,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFECDF3623512A0B0088FBEF /* LaunchScreen.storyboard in Resources */,
 				CFECDF3323512A0B0088FBEF /* Assets.xcassets in Resources */,
 				CFECDF3123512A070088FBEF /* Main.storyboard in Resources */,
 			);
@@ -262,10 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFECDF2E23512A070088FBEF /* SecondViewController.swift in Sources */,
-				CFECDF2C23512A070088FBEF /* FirstViewController.swift in Sources */,
+				CF13D7B8236EB0D7001753DF /* MainTabController.swift in Sources */,
 				CFECDF2823512A070088FBEF /* AppDelegate.swift in Sources */,
-				CFECDF2A23512A070088FBEF /* SceneDelegate.swift in Sources */,
+				CF13D7DC236EBF40001753DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +299,6 @@
 				CFECDF3023512A070088FBEF /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CFECDF3423512A0B0088FBEF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFECDF3523512A0B0088FBEF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -439,15 +423,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQA7WY657U;
 				INFOPLIST_FILE = fantom_control_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "zzy.fantom-control-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "royzhaozy.fantom-control-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,15 +441,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQA7WY657U;
 				INFOPLIST_FILE = fantom_control_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "zzy.fantom-control-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "royzhaozy.fantom-control-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
