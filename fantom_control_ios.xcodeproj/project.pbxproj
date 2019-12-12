@@ -14,6 +14,7 @@
 		CFECDF3323512A0B0088FBEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFECDF3223512A0B0088FBEF /* Assets.xcassets */; };
 		CFECDF4123512A0B0088FBEF /* fantom_control_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFECDF4023512A0B0088FBEF /* fantom_control_iosTests.swift */; };
 		CFECDF4C23512A0B0088FBEF /* fantom_control_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFECDF4B23512A0B0088FBEF /* fantom_control_iosUITests.swift */; };
+		CFF8AA49239473A900F8265A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8AA48239473A900F8265A /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CFECDF4723512A0B0088FBEF /* fantom_control_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fantom_control_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFECDF4B23512A0B0088FBEF /* fantom_control_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fantom_control_iosUITests.swift; sourceTree = "<group>"; };
 		CFECDF4D23512A0B0088FBEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF8AA48239473A900F8265A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				CF13D7DB236EBF40001753DF /* SceneDelegate.swift */,
 				CFECDF2723512A070088FBEF /* AppDelegate.swift */,
 				CF13D7B7236EB0D7001753DF /* MainTabController.swift */,
+				CFF8AA48239473A900F8265A /* FirstViewController.swift */,
 				CFECDF2F23512A070088FBEF /* Main.storyboard */,
 				CFECDF3223512A0B0088FBEF /* Assets.xcassets */,
 				CFECDF3723512A0B0088FBEF /* Info.plist */,
@@ -258,6 +261,7 @@
 				CF13D7B8236EB0D7001753DF /* MainTabController.swift in Sources */,
 				CFECDF2823512A070088FBEF /* AppDelegate.swift in Sources */,
 				CF13D7DC236EBF40001753DF /* SceneDelegate.swift in Sources */,
+				CFF8AA49239473A900F8265A /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
